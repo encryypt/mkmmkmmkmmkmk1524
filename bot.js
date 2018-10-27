@@ -9,15 +9,7 @@ client.on('ready', () => {
 
 client.login('NTA1Nzc4OTM5MTEzODk3OTkx.DrYj5Q.adIfQjbqQvwq5ojzB4KQzdTHWRY');
 
-	client.on('message' , message => {
-if (message.content === '^owner') {
-         let embed = new Discord.RichEmbed()
-.setThumbnail(message.author.avatarURL)    
-      .addField("**تم تطوير وبرمجه البوت من قبل 🔧 **","**๖̶̶̶ζ͜͡¤💕7м̃̾ŏŏ_ấĺẻấĺấм̃̾ĩŭ👑\ #5526**")
-.setColor('#B101FC')
-  message.author.sendEmbed(embed);
-    }
-});
+
 client.on('guildMemberRemove', Sal => { //By Salto7#4595
   var embed = new Discord.RichEmbed()
   .setAuthor(Sal.user.username, Sal.user.avatarURL)
