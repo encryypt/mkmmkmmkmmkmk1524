@@ -23,18 +23,18 @@ client.on('guildMemberRemove', Sal => { //By Salto7#4595
   .addField(' 👤 الان ',`**[ ${Sal.guild.memberCount} ]**`,true)
   .setColor('RED')
   .setFooter(Sal.guild.name, Sal.guild.iconURL, true)
-  var channel =Sal.guild.channels.find('name', 'welcome') // هنا حط اسم الروم الي تبيه يكتب فيه
+  var channel =Sal.guild.channels.find('name', '𝕎𝔼𝕃ℂ𝕆𝕄𝔼') // هنا حط اسم الروم الي تبيه يكتب فيه
   if (!channel) return;
   channel.send({embed : embed});
   });
     client.on("guildMemberAdd", function(member) {
-  const channel = member.guild.channels.find("name", "📩c̈̈н̈̈ɐʇ_شــآتــ✉")
+  const channel = member.guild.channels.find("name", "ℂℍ𝔸𝕋")
       const embed = new Discord.RichEmbed()
       .setColor('RANDOM')
       .setAuthor(member.user.tag, member.user.avatarURL)
 .setDescription('*** :heart:  ولكم نورت السيرفر يا قلبي نتمني لك الاستمتاع في السيرفر***')
 .setThumbnail(member.avatarURL)
-.setImage('https://cdn.discordapp.com/attachments/503693641878077475/504221403017510912/download.jpg')
+.setImage('https://cdn.discordapp.com/attachments/505825536837419010/505826495634210826/PicsArt_10-27-03.png')
       if (!channel) return;
       channel.sendEmbed(embed);
 });
