@@ -7,7 +7,7 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-client.login('NTA1Nzc4OTM5MTEzODk3OTkx.DrYj5Q.adIfQjbqQvwq5ojzB4KQzdTHWRY');
+client.login('NjI4MDA5Njg3NTMwNjAyNDk2.XbJt1A.bfGp0GZ57AXmhwleNyrTbvZm__Q');
 
 
 client.on('guildMemberRemove', Sal => { //By Salto7#4595
