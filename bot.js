@@ -7,8 +7,7 @@ client.on('ready', () => {
   console.log('---------------')
 });
 
-client.login('NjI4MDA5Njg3NTMwNjAyNDk2.XbJt1A.bfGp0GZ57AXmhwleNyrTbvZm__Q');
-
+client.login(process.env.BOT_TOKEN);
 
 client.on('guildMemberRemove', Sal => { //By Salto7#4595
   var embed = new Discord.RichEmbed()
